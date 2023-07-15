@@ -1,5 +1,5 @@
 # Simple FiveM Script
-# carmodel-command
+## carmodel-command
 Run /carmodel to get car model
 
 kinda useless script xD
