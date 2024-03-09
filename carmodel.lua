@@ -3,7 +3,7 @@ RegisterCommand('carmodel', function()
 
     if IsPedSittingInAnyVehicle(playerPed) then
         local vehicle = GetVehiclePedIsIn(playerPed, false)
-        local modelName = GetDisplayNameFromVehicleModel(GetEntityModel(vehicle))
+        local modelName = GetLabelText(GetDisplayNameFromVehicleModel(GetEntityModel(vehicle)))
 
         -- shows current car player is sitting in
         TriggerEvent('chat:addMessage', {
